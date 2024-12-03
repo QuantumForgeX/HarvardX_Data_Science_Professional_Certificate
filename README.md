@@ -59,7 +59,7 @@ The **XGBoost model** outperformed the others with the lowest prediction error a
 2. Open `FlightPricePrediction.Rmd` in RStudio.
 3. Ensure all required packages are installed:
    ```R
-   install.packages(c("tidyverse", "caret", "randomForest", "xgboost", "corrplot", "naniar"))
+   install.packages(c("tidyverse", "caret", "randomForest", "xgboost"))
    ```
 4. Knit the `FlightPricePrediction.Rmd` file to generate the report.
 
@@ -67,6 +67,3 @@ Alternatively, run the analysis directly using the `FlightPricePrediction.R` scr
 
 ## Conclusion
 This project demonstrates how machine learning can effectively predict flight prices based on various features. **XGBoost** proved to be the best-performing model, but other algorithms like **Random Forest** and **Linear Regression** provide valuable baselines. Future work could focus on further feature engineering, hyperparameter tuning, and incorporating additional data sources to enhance prediction accuracy.
-
-## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute this project, provided proper attribution is given.
