@@ -54,7 +54,7 @@ The **XGBoost model** outperformed the others with the lowest prediction error a
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/FlightPricePrediction.git
+   git clone https://github.com/QuantumForgeX/HarvardX_Data_Science_Professional_Certificate.git
    ```
 2. Open `FlightPricePrediction.Rmd` in RStudio.
 3. Ensure all required packages are installed:
